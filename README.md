@@ -1,5 +1,4 @@
 # desafio-trust
-Vaga Fullstack
 
 ## Etapas
 
@@ -42,14 +41,35 @@ Invoice Itens
 * Valor unitário (decimal)
 * Valor Total (decimal)
 
-Frontend
+Usuários
 
-* Desenvolver as telas que façam o crud de cada entidade.
+* ID
+* e-mail (max: 50)
+* senha (possuir no minimo 8 caracteres contendo ao menos uma letra maiúscula, um número e um caracter especial).
+* ativo (default true)
+* ultimo_acesso
 
+
+Desenvolver as rotas para realizar cada operação (criação, alteração e exclusão de entidades - no caso de exclusão utilizar soft deletes)
+As rotas, com exceção de login, devem ser protegidas com autenticação.
+
+As entidades devem possuir validação dos campos (e-mail válido, cnpj válido etc... )
+
+## Frontend
+
+Desenvolver as telas que façam o crud de cada entidade utilizando vue.
+
+* Como usuário eu gostaria de me autenticar.
+* Como usuário eu gostaria de poder cadastrar/alterar/excluir um cliente.
+* Como usuário eu gostaria de poder cadastrar/alterar/excluir um produto.
+* Como usuário eu gostaria de poder cadastrar/alterar/excluir uma invoice.
+* Como usuário eu gostaria de poder cadastrar/alterar/excluir um produto da invoice.
 
 **O que irá destacar você**
 
-* Uso de conteiners
-* MongoDB
+* Uso de conteiners.
+* MongoDB.
+* Padrões de Projeto.
+* Testes unitários.
 
 Terminado o projeto, publicar no seu github.
